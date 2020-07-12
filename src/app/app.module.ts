@@ -7,6 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ServicesModule } from './common/services.module';
 import { PipesModule } from './common/pipes.module';
 import { CustomMaterialModule } from './common/material.module';
+import { FeaturesModule } from './features/features.module';
+import { CommonComponentsModule } from './common/common-components.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +19,8 @@ import { CustomMaterialModule } from './common/material.module';
     ServicesModule,
     PipesModule,
     CustomMaterialModule,
+    CommonComponentsModule,
+    FeaturesModule,
     AppRoutingModule,
     BrowserAnimationsModule
   ],

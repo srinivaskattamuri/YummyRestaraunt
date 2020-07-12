@@ -1,0 +1,55 @@
+{
+    "terminal.integrated.shell.windows": "C:\\Windows\\system32\\cmd.exe",
+    "files.exclude": {
+      "tomcat/": true,
+      "ng4/mBanker/build": true,
+      "ng4/mBanker/cordova": true,
+      "ng4/mBanker/node_modules": true,
+      "ng4/accountopening": true,
+      "ng4/digitalBanking": true,
+      "ng4/teller": true,
+      "newOmniCore/node_modules": true,
+      "newOmniCore/dist": true,
+      "CFGCommon": true,
+      "omniProduct": true,
+      "omniProductWorkarea": true,
+      "productCommon": true,
+      "noWorklight": true,
+      "**/.classpath": true,
+      "**/.project": true,
+      "**/.settings": true,
+      "**/.factorypath": true
+    },
+    "git.ignoreMissingGitWarning": true,
+    "git.autofetch": true,
+    "git.enableSmartCommit": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": true
+    },
+    "editor.tabSize": 2,
+    "[typescript]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "[scss]": {
+      "editor.formatOnSave": true,
+      "editor.defaultFormatter": "michelemelluso.code-beautifier"
+    },
+    "tslint.autoFixOnSave": true,
+    "typescript.updateImportsOnFileMove.enabled": "never",
+    "window.zoomLevel": 0,
+    "editor.largeFileOptimizations": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+  }

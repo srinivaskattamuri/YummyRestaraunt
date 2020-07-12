@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "OnlineClinicSystem": {
+    "YummyRestaraunt": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/OnlineClinicSystem",
+            "outputPath": "dist/YummyRestaraunt",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -63,18 +63,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "OnlineClinicSystem:build"
+            "browserTarget": "YummyRestaraunt:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "OnlineClinicSystem:build:production"
+              "browserTarget": "YummyRestaraunt:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "OnlineClinicSystem:build"
+            "browserTarget": "YummyRestaraunt:build"
           }
         },
         "test": {
@@ -112,16 +112,16 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "OnlineClinicSystem:serve"
+            "devServerTarget": "YummyRestaraunt:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "OnlineClinicSystem:serve:production"
+              "devServerTarget": "YummyRestaraunt:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "OnlineClinicSystem"
+  "defaultProject": "YummyRestaraunt"
 }
